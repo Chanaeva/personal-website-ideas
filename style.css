@@ -3,30 +3,42 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-image: url("./images/sky.jpg");
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 main {
   flex: 1 0 auto;
-  background-image: url("./images/sky.jpg");
-  font-family: 'Open Sans Condensed', sans-serif;
-  width: 100vw;
-
 }
 
-.about-me-container {
-  margin: 6rem;
+.about-me {
+  margin: 3rem;
+  position: relative;
+}
+.profileimg {
 
 }
+.projects {
+  background-color: white;
+  position: relative;
+}
+.contact {
+  margin: 5rem;
+  background-color: white;
+  position: relative;
+}
 
-/*.parallax-container {
-  height: 100vh;
-}*/
-
-
+h2 {
+  margin: 1rem;
+}
 
 #name-h1 {
-  margin: 2rem;
-  text-align: right;
-  font-size: 5vh;
+  margin: 1rem;
+  text-align: center;
+  font-size: 4vh;
   z-index: 2;
+}
+
+footer {
+  position: sticky;
 }
