@@ -10,10 +10,11 @@ main {
   background-image: url("./images/sky.jpg");
   font-family: 'Open Sans Condensed', sans-serif;
   width: 100vw;
+
 }
 
 .about-me-container {
-  margin: 2rem;
+  margin: 6rem;
 
 }
 
@@ -22,7 +23,8 @@ main {
 }*/
 
 
-.name-h1 {
+
+#name-h1 {
   margin: 2rem;
   text-align: right;
   font-size: 5vh;
