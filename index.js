@@ -1,11 +1,8 @@
 $(document).ready(function(){
-    $('.scrollspy').scrollSpy();
+  $('.carousel').carousel();
+
     $('#name-h1').addClass('animated fadeInUp');
-    console.log( "ready!" );
-  });
+    console.log("ready!");
 
 
-
-$( window ).on( "load", function() {
-       console.log( "window loaded" );
   });

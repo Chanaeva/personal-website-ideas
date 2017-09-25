@@ -42,3 +42,13 @@ h2 {
 footer {
   position: sticky;
 }
+
+object {
+  height: 100Vh;
+  width: 75vw;
+}
+
+.carousel-item {
+  width: 25vw !important;
+  height: 75vh !important;
+}
